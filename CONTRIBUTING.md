@@ -81,7 +81,7 @@ to JupyterLab for development:
 
 ```bash
 jlpm bootstrap
-# if you installed `jupyterlab_lsp` before uninstall it before running the next line
+# if you installed `jupyterlab_lsp` before, uninstall it before running the next line
 jupyter labextension develop python_packages/jupyterlab_lsp/ --overwrite
 ```
 
